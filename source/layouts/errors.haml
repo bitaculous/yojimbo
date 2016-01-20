@@ -1,0 +1,6 @@
+!!! 5
+%html.no-js{ lang: 'en' }
+  = partial 'partials/errors/head'
+
+  %body{ id: current_page.data[:id], class: "#{current_page.data[:class] || 'default'} canvas" }
+    = partial 'partials/shared/sections/content'

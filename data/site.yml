@@ -1,0 +1,12 @@
+name: "Bitaculous"
+description: "It's all about the bits, baby!"
+copyright:
+  owner: "Bitaculous"
+meta_tags:
+  abstract: "It's all about the bits, baby!"
+  author: "Bitaculous"
+  description: "It's all about the bits, baby!"
+  generator: "Middleman: Hand-crafted frontend development (http://middlemanapp.com)"
+  keywords: "Bitaculous, It's, all, about, the, bits, baby"
+  publisher: "Bitaculous"
+  viewport: "width=device-width, initial-scale=1"

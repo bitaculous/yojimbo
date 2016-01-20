@@ -1,0 +1,17 @@
+// _content.sass
+//
+// @package errors/contour/shared/sections
+
+@mixin content
+  &.content
+    margin: 0 auto
+    max-width: 1024px
+    padding: 0 rem(10)
+    text-align: center
+
+    h1
+      text-transform: uppercase
+
+    @include hyphenate
+
+    @include vertical-align

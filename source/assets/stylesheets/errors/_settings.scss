@@ -1,0 +1,62 @@
+// _settings.scss
+//
+// @package errors
+
+// Bourbon
+// =======
+
+$asset-pipeline: true;
+$em-base: map-get($defaults, baseline);
+$retina-suffix: '@2x';
+
+// Breakpoint
+// ==========
+
+$breakpoint-no-query-fallbacks: true;
+$breakpoint-to-ems: true;
+
+// Modular Scale
+// =============
+
+$ms-base: map-get($defaults, baseline);
+$ms-ratio: $major-third;
+
+// Media
+// =====
+
+$media: (
+  screen: (
+    small: (
+      min-width: 0,
+      max-width: 40em
+    ),
+
+    medium: (
+      min-width: 40em,
+      max-width: 64em
+    ),
+
+    large: (
+      min-width: 64em,
+      max-width: 90em,
+
+      canvas: (
+        font-size: 110%
+      )
+    ),
+
+    x-large: (
+      min-width: 90em,
+      max-width: 120em,
+
+      canvas: (
+        font-size: 120%
+      )
+    ),
+
+    xx-large: (
+      min-width: 120em,
+      max-width: 99999999em
+    )
+  )
+);

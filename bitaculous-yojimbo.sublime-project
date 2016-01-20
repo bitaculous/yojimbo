@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "bitaculous-yojimbo",
+      "path": "./",
+      "folder_exclude_patterns": [
+        ".bundle",
+        "build"
+      ],
+      "file_exclude_patterns": [
+        ".keep"
+      ]
+    }
+  ]
+}

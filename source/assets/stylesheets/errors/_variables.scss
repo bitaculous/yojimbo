@@ -1,0 +1,43 @@
+// _variables.scss
+//
+// Shared variables used in `errors` package.
+//
+// @package errors
+
+// Defaults
+// ========
+
+$defaults: (
+  background: #000,
+  font-family: unquote('"Nexa Regular", Helvetica, Roboto, Arial, sans-serif'),
+  font-size: 100%,
+  baseline: 100%,
+  font-style: normal,
+  font-weight: normal,
+  color: #FFF,
+  line-height: 1.4
+);
+
+// Font families
+// =============
+
+$font-families: (
+  serif: unquote('Georgia, Cambria, "Times New Roman", Times, serif'),
+  sans-serif: unquote('"Nexa Regular", Helvetica, Roboto, Arial, sans-serif'),
+  monospace: unquote('Consolas, "Liberation Mono", Courier, monospace'),
+  headings: unquote('"Nexa Heavy", Helvetica, Roboto, Arial, sans-serif')
+);
+
+// Font styles
+// ===========
+
+$font-styles: (
+  normal: normal
+);
+
+// Font weights
+// ============
+
+$font-weights: (
+  normal: normal
+);

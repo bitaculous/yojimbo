@@ -1,0 +1,18 @@
+%meta{ charset: 'utf-8' }/
+
+%meta{ 'http-equiv' => 'X-UA-Compatible', content: 'IE=edge' }/
+
+%meta{ name: 'abstract',    content: current_page.data.meta_tags&.abstract || data.site&.meta_tags&.abstract }/
+%meta{ name: 'author',      content: current_page.data.meta_tags&.author || data.site&.meta_tags&.author }/
+%meta{ name: 'copyright',   content: copyright(current_page.data.copyright&.owner || data.site&.copyright&.owner) }/
+%meta{ name: 'description', content: current_page.data.meta_tags&.description || data.site&.meta_tags&.description }/
+%meta{ name: 'generator',   content: data.site&.meta_tags&.generator }/
+%meta{ name: 'keywords',    content: current_page.data.meta_tags&.keywords || data.site&.meta_tags&.keywords }/
+%meta{ name: 'publisher',   content: data.site&.meta_tags&.publisher }/
+%meta{ name: 'viewport',    content: data.site&.meta_tags&.viewport }/
+%meta{ name: 'version',     content: yojimbo.version }/
+
+%meta{ name: 'msapplication-config',    content: asset_url('/browserconfig.xml') }/
+%meta{ name: 'msapplication-TileImage', content: asset_url('/assets/mstile-144x144.png') }/
+%meta{ name: 'msapplication-TileColor', content: data.colors&.dominant }/
+%meta{ name: 'theme-color',             content: data.colors&.theme }/
