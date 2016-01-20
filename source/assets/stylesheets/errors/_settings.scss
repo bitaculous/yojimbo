@@ -21,6 +21,27 @@ $breakpoint-to-ems: true;
 $ms-base: map-get($defaults, baseline);
 $ms-ratio: $major-third;
 
+// Contour
+// =======
+
+$contour: (
+  four-zero-x: (
+    gradient: (
+      from: #00477A,
+      to: #00707A,
+      fallback: #00707A
+    )
+  ),
+
+  five-zero-x: (
+    gradient: (
+      from: #E60032,
+      to: #B30027,
+      fallback: #B30027
+    )
+  )
+);
+
 // Media
 // =====
 

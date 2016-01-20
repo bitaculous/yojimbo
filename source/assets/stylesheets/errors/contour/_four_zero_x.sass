@@ -2,6 +2,10 @@
 //
 // @package errors/contour
 
+$gradient-from: map-get-deep($contour, four-zero-x, gradient, from)
+$gradient-to: map-get-deep($contour, four-zero-x, gradient, to)
+$gradient-fallback: map-get-deep($contour, four-zero-x, gradient, fallback)
+
 @mixin four-zero-x
   .four-zero-x
-    @include linear-gradient(to right, #00477A 0%, #00707A 100%, $fallback: #00707A)
+    @include linear-gradient(to right, $gradient-from 0%, $gradient-to 100%, $fallback: $gradient-fallback)
