@@ -84,6 +84,6 @@ This font is free for personal use only and copyright protected under [The Fonts
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"
 [Ruby]: https://www.ruby-lang.org "A dynamic, open source programming language with a focus on simplicity and productivity."
 [Semantic Versioning 2.0.0]: http://semver.org "Semantic Versioning 2.0.0"
-[The Fontspring Webfont End User License Agreement]: http://www.fontspring.com/lic/lv4e5lv2k2 "The Fontspring Webfont End User License Agreement"
+[The Fontspring Webfont End User License Agreement]: http://www.fontspring.com/licenses/fontfabric/webfont "The Fontspring Webfont End User License Agreement"
 [Thor]: http://whatisthor.com "A toolkit for building powerful command-line interfaces."
 [Yojimbo]: https://github.com/bitaculous/yojimbo "All static files and resources for Bitaculous."
