@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/bitaculous/assetify.git
-  revision: 0061a4bdf01574b5b3f26a055a05458ca2fb4bd4
+  revision: 0284d086028b9686a61f87268ef9bf6503913f76
   specs:
-    bitaculous-assetify (3.1.0)
+    bitaculous-assetify (3.1.1)
       bourbon (~> 4.2, >= 4.2.6)
       breakpoint (~> 2.5, >= 2.5.0)
       modular-scale (~> 2.1, >= 2.1.1)
@@ -21,7 +21,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.2.5)
+    activesupport (4.2.5.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -132,7 +132,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2015.1120)
     mini_portile2 (2.0.0)
-    minitest (5.8.3)
+    minitest (5.8.4)
     modular-scale (2.1.1)
       compass (>= 0.12.0)
     multi_json (1.11.2)
@@ -147,7 +147,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    parser (2.3.0.1)
+    parser (2.3.0.2)
       ast (~> 2.2)
     pastel (0.6.0)
       equatable (~> 0.5.0)
@@ -159,7 +159,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rainbow (2.0.0)
+    rainbow (2.1.0)
     rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
