@@ -1,9 +1,9 @@
-require 'bitaculous/assetify/task'
+require 'bitaculous/thorify/task'
 
 # = Deploy
 #
-# The Deploy class, inherited from `Bitaculous::Assetify::Task`.
-class Deploy < Bitaculous::Assetify::Task
+# The Deploy class, inherited from `Bitaculous::Thorify::Task`.
+class Deploy < Bitaculous::Thorify::Task
   EXEC_MIDDLEMAN = 'bundle exec middleman'
 
   desc 'build', 'Build a new release'

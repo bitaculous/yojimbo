@@ -19,6 +19,10 @@ gem 'confstruct', '~> 1.0.2'
 
 gem 'bitaculous-assetify', github: 'bitaculous/assetify'
 
+# === Thor ===
+
+gem 'bitaculous-thorify', github: 'bitaculous/thorify'
+
 # === Test ===
 
 group :test do
